@@ -8,7 +8,7 @@
     tools:context=".splash_screen">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/splashscreen_image"
         android:layout_width="260dp"
         android:layout_height="460dp"
         android:src="@drawable/shinchain"
@@ -23,10 +23,10 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/akaya_telivigala"
         android:text="@string/splashscreen_welcome"
-        android:textSize="32sp"
+        android:textSize="36sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/splashscreen_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.364"
         app:layout_constraintStart_toStartOf="parent"
