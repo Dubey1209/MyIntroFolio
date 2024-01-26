@@ -35,5 +35,21 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <Button
+        android:id="@+id/toast_2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="@color/toast_2"
+        android:fontFamily="@font/akaya_telivigala"
+        android:paddingVertical="8dp"
+        android:text="@string/toast_2"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_professional"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
