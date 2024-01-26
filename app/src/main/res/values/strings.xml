@@ -4,4 +4,7 @@
     <string name="spashscreentext">Krishn Sakkhiiiii</string>
     <string name="btnabout">Me</string>
     <string name="myFamily">My Life</string>
+    <string name="heading_about">Me</string>
+    <string name="heading_professional">Professional Me</string>
+    <string name="heading_mylife">My Life</string>
 </resources>
