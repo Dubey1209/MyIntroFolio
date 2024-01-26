@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF0F5"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,8 +14,8 @@
         android:background="@drawable/borderheading"
         android:fontFamily="@font/akaya_telivigala"
         android:paddingVertical="8dp"
-        android:text="@string/heading1"
         android:paddingStart="12dp"
+        android:text="@string/heading1"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -34,15 +34,54 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="120dp"
-        android:src="@drawable/shinchain_family"
+    <Button
+        android:id="@+id/btnabout"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:backgroundTint="@color/teal"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/btnabout"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:paddingVertical="8dp"
         app:layout_constraintBottom_toTopOf="@+id/bottomnavigation"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/heading1"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.573" />
+
+    <Button
+        android:id="@+id/btnprofessional"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingVertical="8dp"
+        android:backgroundTint="@color/light_purple"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Professional Me"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnabout"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnabout"
+        app:layout_constraintTop_toBottomOf="@+id/btnabout" />
+
+    <Button
+        android:id="@+id/myFamily"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/pink"
+        android:fontFamily="@font/akaya_telivigala"
+        android:paddingVertical="8dp"
+        android:text="@string/myFamily"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnabout"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnabout"
+        app:layout_constraintTop_toBottomOf="@+id/btnprofessional" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

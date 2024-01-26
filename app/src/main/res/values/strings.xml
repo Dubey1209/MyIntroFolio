@@ -2,4 +2,6 @@
     <string name="app_name">Krishn_Sakkhiiiii</string>
     <string name="heading1">Hello ! Krishn Sakkhiiiii Here.....</string>
     <string name="spashscreentext">Krishn Sakkhiiiii</string>
+    <string name="btnabout">Me</string>
+    <string name="myFamily">My Life</string>
 </resources>

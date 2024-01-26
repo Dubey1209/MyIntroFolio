@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/spashscreen"
+    android:background="@drawable/splash_screen"
     tools:context=".splash_screen">
 
 
@@ -15,7 +15,7 @@
         android:fontFamily="@font/akaya_telivigala"
         android:text="@string/spashscreentext"
         android:textColor="@color/white"
-        android:textSize="40sp"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
