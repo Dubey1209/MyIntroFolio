@@ -17,7 +17,7 @@
             android:exported="false" />
         <activity
             android:name=".ProfessionalMe"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".About"
             android:exported="true" />

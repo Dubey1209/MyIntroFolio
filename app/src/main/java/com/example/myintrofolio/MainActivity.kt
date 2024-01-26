@@ -12,14 +12,22 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Initialize the button
-        val btnOpenActivity: Button = findViewById(R.id.btnabout)
+        val btnOpenActivityAbout: Button = findViewById(R.id.btnabout)
+        val btnOpenActivityProfessionalMe: Button = findViewById(R.id.btnprofessional)
 
         // Set click listener for the button
-        btnOpenActivity.setOnClickListener {
+        btnOpenActivityAbout.setOnClickListener {
             // Add code to handle button click event
             Intent(this,About::class.java).also {
                 startActivity(it)
             }
         }
+        btnOpenActivityProfessionalMe.setOnClickListener{
+            Intent(this,ProfessionalMe::class.java).also {
+                startActivity(it)
+            }
+        }
+        }
+
     }
-}
+j
