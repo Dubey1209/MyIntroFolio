@@ -7,4 +7,7 @@
     <string name="heading_about">Me</string>
     <string name="heading_professional">Professional Me</string>
     <string name="heading_mylife">My Life</string>
+    <string name="toast_1">Insight !</string>
+    <string name="toast_2">Suggestion !</string>
+    <string name="toast_3">Life !</string>
 </resources>
