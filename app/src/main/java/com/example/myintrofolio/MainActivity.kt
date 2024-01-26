@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         // Initialize the button
         val btnOpenActivityAbout: Button = findViewById(R.id.btnabout)
         val btnOpenActivityProfessionalMe: Button = findViewById(R.id.btnprofessional)
+        val btnOpenActivityMyLife: Button = findViewById(R.id.myFamily)
 
         // Set click listener for the button
         btnOpenActivityAbout.setOnClickListener {
@@ -26,8 +27,15 @@ class MainActivity : AppCompatActivity() {
             Intent(this,ProfessionalMe::class.java).also {
                 startActivity(it)
             }
+
         }
+        btnOpenActivityMyLife.setOnClickListener{
+            Intent(this,MyLife::class.java).also{
+                startActivity(it)
+            }
+        }
+
         }
 
     }
-j
+
