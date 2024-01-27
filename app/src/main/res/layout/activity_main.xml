@@ -78,6 +78,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
             android:backgroundTint="@color/pink"
             android:fontFamily="@font/akaya_telivigala"
             android:paddingVertical="8dp"
@@ -185,6 +186,23 @@
             app:layout_constraintTop_toBottomOf="@+id/etuserhobbie"
             app:layout_constraintVertical_bias="0.0" />
 
+
+        <Button
+            android:id="@+id/permission"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/permission"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textAppearance="@color/purple"
+            app:layout_constraintBottom_toTopOf="@+id/bottomnavigation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/heading1"
+            app:layout_constraintVertical_bias="1.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

@@ -20,4 +20,5 @@
     <string name="heading5">Hi ! Once Again......</string>
     <string name="textview2">I hope You know my name . \n If NO then Please know my Name \n otherwise how can we become friends without knowing\n name of each other?\n</string>
     <string name="friendInformation">User Information</string>
+    <string name="permission">Permissions</string>
 </resources>
