@@ -15,4 +15,6 @@
     <string name="etusername">My Name</string>
     <string name="tvuserhobbie">What is your Hobbie ?</string>
     <string name="etuserhobbie">My Hobbie</string>
+    <string name="btnfriends">Friends ?</string>
+    <string name="btnprofessional">Professional Me</string>
 </resources>

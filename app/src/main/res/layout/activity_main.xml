@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/whitePanda"
+    android:background="@drawable/whitepanda"
     tools:context=".MainActivity">
 
     <TextView
@@ -60,7 +60,7 @@
         android:backgroundTint="@color/light_purple"
         android:fontFamily="@font/akaya_telivigala"
         android:paddingVertical="8dp"
-        android:text="Professional Me"
+        android:text="@string/btnprofessional"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/btnabout"
@@ -119,13 +119,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
+        android:background="@drawable/simple_border"
         android:backgroundTint="@android:color/transparent"
         android:fontFamily="@font/akaya_telivigala"
         android:hint="@string/etusername"
         android:textColor="@color/appColor"
         android:textColorHint="@color/EditTextColor"
         android:textSize="12sp"
-        android:background="@drawable/simple_border"
         app:layout_constraintEnd_toEndOf="@+id/tvusername"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tvusername"
@@ -149,17 +149,32 @@
         android:id="@+id/etuserhobbie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/simple_border"
         android:backgroundTint="@android:color/transparent"
         android:fontFamily="@font/akaya_telivigala"
         android:hint="@string/etuserhobbie"
         android:textColor="@color/appColor"
         android:textColorHint="@color/EditTextColor"
         android:textSize="12sp"
-       android:background="@drawable/simple_border"
         app:layout_constraintEnd_toEndOf="@+id/tvusername"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tvusername"
         app:layout_constraintTop_toBottomOf="@+id/tvuserhobbie" />
+
+    <Button
+        android:id="@+id/btnfriends"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:paddingVertical="8dp"
+        android:text="@string/btnfriends"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvques1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvques1"
+        app:layout_constraintTop_toBottomOf="@+id/etuserhobbie" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
