@@ -8,42 +8,34 @@ import android.widget.EditText
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         // Initialize the buttons
         val btnOpenActivityAbout: Button = findViewById(R.id.btnabout)
         val btnOpenActivityProfessionalMe: Button = findViewById(R.id.btnprofessional)
         val btnOpenActivityMyLife: Button = findViewById(R.id.myFamily)
-
         // Set click listeners for the buttons
         btnOpenActivityAbout.setOnClickListener {
             Intent(this, About::class.java).also {
                 startActivity(it)
             }
         }
-
         btnOpenActivityProfessionalMe.setOnClickListener {
             Intent(this, ProfessionalMe::class.java).also {
                 startActivity(it)
             }
         }
-
         btnOpenActivityMyLife.setOnClickListener {
             Intent(this, MyLife::class.java).also {
                 startActivity(it)
             }
         }
-
         // Accessing EditText and TextView assuming they are in the same layout
         val etUsername = findViewById<EditText>(R.id.etusername)
         val etUserHobbie = findViewById<TextView>(R.id.etuserhobbie)
-
         // Accessing Button for User Information
         val btnOpenActivityUser : Button = findViewById(R.id.btnfriends)
-
         // Set click listener for the User Information button
         btnOpenActivityUser.setOnClickListener {
             // Get the text from EditText and TextView
