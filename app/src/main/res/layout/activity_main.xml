@@ -171,6 +171,7 @@
         android:text="@string/btnfriends"
         android:textColor="@color/white"
         android:textSize="12sp"
+        android:backgroundTint="@color/purple"
         app:layout_constraintEnd_toEndOf="@+id/tvques1"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tvques1"
