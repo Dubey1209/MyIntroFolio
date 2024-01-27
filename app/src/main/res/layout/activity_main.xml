@@ -41,25 +41,25 @@
         android:layout_marginStart="28dp"
         android:backgroundTint="@color/teal"
         android:fontFamily="@font/akaya_telivigala"
+        android:paddingVertical="8dp"
         android:text="@string/btnabout"
         android:textColor="@color/white"
         android:textSize="16sp"
-        android:paddingVertical="8dp"
         app:layout_constraintBottom_toTopOf="@+id/bottomnavigation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/heading1"
-        app:layout_constraintVertical_bias="0.573" />
+        app:layout_constraintVertical_bias="0.775" />
 
     <Button
         android:id="@+id/btnprofessional"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:paddingVertical="8dp"
         android:backgroundTint="@color/light_purple"
         android:fontFamily="@font/akaya_telivigala"
+        android:paddingVertical="8dp"
         android:text="Professional Me"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -83,5 +83,83 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/btnabout"
         app:layout_constraintTop_toBottomOf="@+id/btnprofessional" />
+
+
+    <TextView
+        android:id="@+id/tvques1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/tvques1"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading1" />
+
+    <TextView
+        android:id="@+id/tvusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/tvusername"
+        android:textColor="@color/appColor"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvques1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvques1"
+        app:layout_constraintTop_toBottomOf="@+id/tvques1" />
+
+    <EditText
+        android:id="@+id/etusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/akaya_telivigala"
+        android:hint="@string/etusername"
+        android:textColor="@color/appColor"
+        android:textColorHint="@color/EditTextColor"
+        android:textSize="12sp"
+        android:background="@drawable/simple_border"
+        app:layout_constraintEnd_toEndOf="@+id/tvusername"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvusername"
+        app:layout_constraintTop_toBottomOf="@+id/tvusername" />
+
+    <TextView
+        android:id="@+id/tvuserhobbie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/tvuserhobbie"
+        android:textColor="@color/appColor"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvusername"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvusername"
+        app:layout_constraintTop_toBottomOf="@+id/etusername" />
+
+    <EditText
+        android:id="@+id/etuserhobbie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/akaya_telivigala"
+        android:hint="@string/etuserhobbie"
+        android:textColor="@color/appColor"
+        android:textColorHint="@color/EditTextColor"
+        android:textSize="12sp"
+       android:background="@drawable/simple_border"
+        app:layout_constraintEnd_toEndOf="@+id/tvusername"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvusername"
+        app:layout_constraintTop_toBottomOf="@+id/tvuserhobbie" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

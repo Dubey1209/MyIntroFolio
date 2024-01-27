@@ -10,4 +10,9 @@
     <string name="toast_1">Insight !</string>
     <string name="toast_2">Suggestion !</string>
     <string name="toast_3">Life !</string>
+    <string name="tvques1">I LOVE Exploring People and Making Them My Friend...\n So Will YOU Introduce yourself ?</string>
+    <string name="tvusername">What\'s your beautiful name ?</string>
+    <string name="etusername">My Name</string>
+    <string name="tvuserhobbie">What is your Hobbie ?</string>
+    <string name="etuserhobbie">My Hobbie</string>
 </resources>
