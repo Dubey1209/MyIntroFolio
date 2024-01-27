@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/whitepanda"
     android:fillViewport="true"
+    android:background="@drawable/whitepanda"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -84,6 +84,7 @@
             android:text="@string/myFamily"
             android:textColor="@color/white"
             android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/bottomnavigation"
             app:layout_constraintEnd_toEndOf="@+id/btnabout"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/btnabout"
@@ -106,4 +107,84 @@
             app:layout_constraintTop_toBottomOf="@+id/heading1" />
 
         <TextView
-            android:id
+            android:id="@+id/tvusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/tvusername"
+            android:textColor="@color/appColor"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/tvques1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tvques1"
+            app:layout_constraintTop_toBottomOf="@+id/tvques1" />
+
+        <EditText
+            android:id="@+id/etusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/simple_border"
+            android:backgroundTint="@android:color/transparent"
+            android:fontFamily="@font/akaya_telivigala"
+            android:hint="@string/etusername"
+            android:textColor="@color/appColor"
+            android:textColorHint="@color/EditTextColor"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/tvusername"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tvusername"
+            app:layout_constraintTop_toBottomOf="@+id/tvusername" />
+
+        <TextView
+            android:id="@+id/tvuserhobbie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/tvuserhobbie"
+            android:textColor="@color/appColor"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/tvusername"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tvusername"
+            app:layout_constraintTop_toBottomOf="@+id/etusername" />
+
+        <EditText
+            android:id="@+id/etuserhobbie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/simple_border"
+            android:backgroundTint="@android:color/transparent"
+            android:fontFamily="@font/akaya_telivigala"
+            android:hint="@string/etuserhobbie"
+            android:textColor="@color/appColor"
+            android:textColorHint="@color/EditTextColor"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/tvusername"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tvusername"
+            app:layout_constraintTop_toBottomOf="@+id/tvuserhobbie" />
+
+        <Button
+            android:id="@+id/btnfriends"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/purple"
+            android:fontFamily="@font/akaya_telivigala"
+            android:paddingVertical="8dp"
+            android:text="@string/btnfriends"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnabout"
+            app:layout_constraintEnd_toEndOf="@+id/tvques1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tvques1"
+            app:layout_constraintTop_toBottomOf="@+id/etuserhobbie"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
