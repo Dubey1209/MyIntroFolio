@@ -12,7 +12,7 @@ class UserInformation : AppCompatActivity() {
 
         val uname = intent.getStringExtra("EXTRA_NAME")
         val uhobbie = intent.getStringExtra("EXTRA_HOBBIES")
-        val userinformation = "Oh Hello My beloved friend $uname !. \n It's really nice to do friendship with $uname. \n Happy to know that your hobbies are $uhobbie BUT you know what ? \n My hobbies are just SLEEPING and EATING like a Panda !!!!!  "
+        val userinformation = "Oh Hello My beloved friend $uname !.\nIt's really nice to do friendship with \nyou happy soul $uname.\nHappy to know that your hobbies are $uhobbie\nBUT you know what ?\nMy hobbies are just\nSLEEPING and EATING like a Panda !!!!!  "
 
         // Initialize friendInformation with the TextView from the layout
         val friendInformation = findViewById<TextView>(R.id.friendInformation)
